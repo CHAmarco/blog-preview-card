@@ -70,6 +70,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100dvh;
+  line-height: 150%;
 }
 
 .card {
@@ -105,7 +106,7 @@ body {
   font-size: var(--fs-tag, 12px);
   font-weight: var(--fw-800);
   background-color: var(--clr-primary-100);
-  padding: 6px 12px;
+  padding: 4px 12px;
   border-radius: 4px;
   align-self: flex-start;
 }
@@ -127,7 +128,6 @@ body {
 
 .card__description {
   font-size: var(--fs-description, 14px);
-  line-height: 1.5;
   color: var(--clr-neutral-200);
   /*text-wrap: pretty;*/
 }
